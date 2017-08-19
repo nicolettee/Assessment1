@@ -1,4 +1,87 @@
+body{
+background-color: #e3e3e3;
+color:#3a3a3a;
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+width: 960px;
+}
+h1{
+font-size: 40px;
+}
+h2{
+font-size: 20px;
+}
+a{
+color: #3a3a3a;
+}
+h1, h2, h3, h4, h5{
+margin:0;
+}
+main{
+background-color: #fff;
+margin:0 auto;
+}
+/* hover */
+.headerNav:hover {
+  text-decoration: underline;
+}
+/* Begin header */
+.mainHeader{
+background-color: #714a99;
+color: #fff;
+margin:0;
+padding: 20px;
+}
+.headerNav{
+background-color:#2cd820;
+border-top: 1px solid #3a3a3a;
+border-bottom: 1px solid #3a3a3a;
+}
+.headerNav a{
+font-weight: bold;
+padding:20px;
+text-decoration: none;
+}
+/* End Header */
+/* Begin Main content */
+ article{
+ float: left;
+ padding: 20px;
+ width: 60%;
+ }
 
+article header{
+text-align: center;
+margin-bottom: 20px;
+}
+article footer{
+border-top: 1px solid #3a3a3a;
+border-bottom: 1px solid #3a3a3a;
+text-align: center;
+}
+article img{
+border: 3px solid #3a3a3a;
+border-radius: 50%;
+text-align: center;
+padding: 5px;
+}
+/* End Main content */
+
+/* Begin Sidebar */
+aside{
+float: right;
+padding-top: 20px;
+width: 30%;
+}
+aside nav{
+border: 1px solid #3a3a3a;
+margin: 20px;
+padding: 10px;
+}
+aside a{
+margin: 5px 0;
+}
+ /* End Sidebar */
 
 
 .clear{
